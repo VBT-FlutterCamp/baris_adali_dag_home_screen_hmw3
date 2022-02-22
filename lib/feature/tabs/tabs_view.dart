@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:kartal/kartal.dart';
 
+import '../httpService/home_http_view.dart';
+
 class TabsView extends StatefulWidget {
   const TabsView({Key? key}) : super(key: key);
 
@@ -16,7 +18,7 @@ class _TabsViewState extends State<TabsView> {
   // static const TextStyle optionStyle =
   //     TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   final List<Widget> _widgetOptions = <Widget>[
-    const HomeView(),
+    const HomeHttpView(),
     const Text(
       'Settings Page',
     ),

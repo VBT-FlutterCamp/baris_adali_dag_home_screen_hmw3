@@ -29,7 +29,10 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.2
   eva_icons_flutter: ^3.0.2
+  #utiliy
   kartal: ^2.3.0
+  #service
+  http: ^0.13.4
   flutter:
     sdk: flutter
 
